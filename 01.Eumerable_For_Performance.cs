@@ -8,7 +8,7 @@ using System.Diagnostics;       // 성능측정하기 위한 Stopwatch를 쓰려
 
 namespace CPPPP
 {
-    class For_Eumerable_Performance
+    class Eumerable_For_Performance
     {
         public static void Main()
         {
