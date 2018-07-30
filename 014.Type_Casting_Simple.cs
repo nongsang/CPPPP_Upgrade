@@ -25,7 +25,7 @@ namespace CPPPP
             foreach (var item in array.OfType<Extended>())  // array의 요소중에서 Extended이거나 상속받은 놈들 모두 Extended로 형변환해서
             {
                 item.SayIt();                               // SayIt() 실행
-                                                            // var도 Extended로 컴파일된다.
+                                                            // Extended로 형변환한 놈들을 가리켜야 하니 var도 Extended형이 된다.
             }
         }
     }
