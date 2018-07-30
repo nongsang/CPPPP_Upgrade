@@ -18,6 +18,7 @@ class SimpleSum
         array = Enumerable.Range(0, max).ToArray(); // 0에서부터 max값까지 배열에 원소로 저장
         calc();                                     // 그리고 값을 전부 더한다.
         array = null;                               // SimpleSum 생성자가 끝나면서 array에는 많은 데이터를 저장하게 된다.
+                                                    // 메소드가 끝나면 배열이 없어질걸 생각해서 코딩했겠지만,
                                                     // 클래스안에 array가 있으므로 생성자가 끝나도 array에 값이 계속해서 저장되게 된다.
                                                     // array는 단순히 값을 전달하는 역할일 뿐이다.
                                                     // array의 역할이 끝나면 값을 전부 삭제해야 메모리부족이 발생하지 않는다.
