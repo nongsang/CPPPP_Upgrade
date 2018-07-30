@@ -21,8 +21,8 @@ namespace CPPPP
             for (int i = 0; i < a.Length; ++i)          // for문으로 배열의 원소를
                 WriteLine(a[i]);                        // 출력한다.
 
-            //int n = a.Length;                         // 길이를 미리 저장해놓고
-            //for (int i = 0; i < n; ++i)               // 값을 비교하면서 해도
+            //int n = a.Length;                         // 길이를 미리 다른 변수에 저장해놓고
+            //for (int i = 0; i < n; ++i)               // 비교하게 해도
             //    WriteLine(a[i]);                      // 성능이 올라가진 않는다.
 
             sw.Stop();                                  // 스탑워치를 끈다.
