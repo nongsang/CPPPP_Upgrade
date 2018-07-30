@@ -30,7 +30,7 @@ namespace CPPPP
 
             for (int i = 0; i < 100000; ++i)    // 10만번을 반복하는데
                 list.Add(new SimpleSum(10000)); // 0에서 9999까지 하는 작업을 한다.
-                                                // List는 문제가 없지만, SimpleSum.array에서 발생한다.
+                                                // 문제는 SimpleSum.array에서 발생한다.
         }
     }
 }
