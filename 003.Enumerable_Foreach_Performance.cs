@@ -24,8 +24,8 @@ namespace CPPPP
 
             //var enumerator = heavyQuery.GetEnumerator();      // heavyQuery는 IEnumerable형이므로 MoveNext()를 쓰려고 IEnumerator에 저장
             //for (; enumerator.MoveNext();)                    // 인덱스 접근을 없애고 for문과 MoveNext()로 요소에 접근한 후
-            //    WriteLine(enumerator.Current);                // 출력한다.
-                                                                // 인덱스 접근만 없애도 성능이 증가하며, foreach문가 같아진다.
+            //    WriteLine(enumerator.Current);                // enumerator가 가리키는 값을 출력한다.
+                                                                // 인덱스 접근만 없애도 성능이 증가하며, foreach문과 같아진다.
 
             foreach (var item in heavyQuery)                    // 차라리 foreach문이 훨씬 간편하다.
                 WriteLine(item);
