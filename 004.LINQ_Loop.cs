@@ -11,7 +11,7 @@ namespace CPPPP
     {
         public static void Main()
         {
-            int[] a = { -1, 1, -2, 2, -3, 3 };
+            int[] a = { -1, 1, -2, 2, -3, 3, 4};
 
             foreach (var item in a)     // 원하는 값을 1개, 혹은 모두 찾을 때
                 if (item < 0)           // for나 foreach와 if문을 조합하는게
