@@ -17,7 +17,7 @@ class CountDownWapper
         WriteLine(count--); // 숫자를 센다
         if (count >= 0)
             Task.Delay(1000).ContinueWith(c => { CountDown(); });   // for문을 사용하지 않으려고 1초가 지날 때 마다 자기자신을 실행
-        else                                                        // 거기다가 비동기로 동작한다.
+        else                                                        // Task를 사용했으므로 비동기로 동작한다.
             Done.Set();     // 0이면 스레드에 이벤트 발생
     }
 }
