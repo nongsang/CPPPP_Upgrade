@@ -10,7 +10,7 @@ class SimpleSum
 
     public SimpleSum(int max)   // 생성자
     {
-        int[] array = Enumerable.Range(0, max).ToArray();   // 0에서부터 max값까지 배열에 원소로 저장
+        int[] array = Enumerable.Range(0, max).ToArray();   // 0에서부터 max값까지 배열에 저장
                                                             // 이번에는 배열을 지역으로 생성해서 메소드가 끝나면 삭제하도록 했다.
 
         GetSum = () =>          // 람다인데
@@ -35,7 +35,6 @@ namespace CPPPP
 
             for (int i = 0; i < 100000; ++i)    // 10만번
                 list.Add(new SimpleSum(10000)); // 0부터 9999까지 저장하고 합을 반환한다.
-                                                // 문제는 람다에서 발생한다.
         }
     }
 }
