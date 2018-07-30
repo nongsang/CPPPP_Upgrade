@@ -23,9 +23,9 @@ namespace CPPPP
             Base[] array = { new Base(), new Extended() };
 
             foreach (var item in array)     // array에 있는 요소들 중에
-                if (item is Base)           // Base의 상속을 받은 놈들은
+                if (item is Extended)           // Extended이거나 상속을 받은 놈들은
                     ((Extended)item).SayIt();   // Etended로 형변환하고 SayIt()를 실행
-                                                //근데 ()가 많아서 헷깔리는데 바꿀 방법이 없을까?
+                                                // 근데 ()가 많아서 헷깔리는데 바꿀 방법이 없을까?
         }
     }
 }
