@@ -23,7 +23,7 @@ class SimpleSum
     }
     public SimpleSum(int max, int id)   // 생성자
     {
-        this.id = id;
+        this.id = id;           // 추가로 id도 설정
         array = Enumerable.Range(0, max).ToArray(); // 0에서부터 max값까지 배열에 원소로 저장
         calc();                                     // 그리고 값을 전부 더한다.
     }
