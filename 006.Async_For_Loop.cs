@@ -21,9 +21,9 @@ namespace CPPPP
         public static void Main()
         {
             var a = CountDown();    // var는 Task형이다.
-            var b = CountDown();    // Task로 반환을 받아서 작업을 지시할 수 있다.
+            var b = CountDown();    // Task로 반환을 받기 때문이다..
 
-            Task.WaitAll(a, b);     // Task로 반환받은 변수 a, b를 서로 작업을 번갈아가면 할 수 있도록 제어해준다.
+            Task.WaitAll(a, b);     // Task로 반환받은 변수 a, b의 작업을 서로 번갈아가면 할 수 있도록 제어해준다.
         }
     }
 }
