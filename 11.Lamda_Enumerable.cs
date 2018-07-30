@@ -12,6 +12,8 @@ class SimpleSum
     {
         IEnumerable<int> enumAll = Enumerable.Range(0, max);// 0에서부터 max값까지 열거형으로 저장
                                                             // 배열형이 아니라 열거형으로 바꾸었다.
+                                                            // 배열은 데이터에 집중한 반면 열거형은 데이터를 반복해서 가져오는 것에 집중한다.
+                                                            // 따라서 배열은 데이터를 많이 잡아먹지만 열거형은 그냥 다음 요소를 가져올 뿐이다.
 
         GetSum = () =>
         {
