@@ -34,7 +34,7 @@ namespace CPPPP
             sw.Stop();      // 스탑워치를 끈다.
 
             WriteLine(sum);         // 총 합
-            WriteLine(sw.Elapsed);  // 시간은 약 3.5초
+            WriteLine(sw.Elapsed);  // 시간은 약 3.1초
                                     // 더 빠르게 할 수 없나?
         }
     }
