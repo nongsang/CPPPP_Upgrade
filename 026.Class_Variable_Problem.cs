@@ -6,7 +6,7 @@ using static System.Console;    // WriteLine()이라고 줄여서 쓰고싶어
 
 class Distance
 {
-    private double x1, x2, distance;
+    private double x1, x2, distance;    // 일반변수로 필드를 선언한다.
 
     public void Report()
     {
